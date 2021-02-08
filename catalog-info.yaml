@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app"
+  description: "test application"
+  annotations:
+    github.com/project-slug: pendyalaorg/test-app
+    backstage.io/techdocs-ref: url:https://github.com/pendyalaorg/test-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "sreependyala"
